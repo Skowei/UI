@@ -1,0 +1,30 @@
+
+{
+    "name": "skowei/ui",
+    "description": "Ui made with tailwindcss and alpinejs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skowei\\Ui\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Skowei",
+            "email": "macieiskowronski@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": 
+    {
+        "laravel/breeze": "^1.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skowei\\Ui\\UiServiceProvider"
+            ]
+        }
+    }
+}
