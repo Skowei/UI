@@ -41,7 +41,7 @@
   - by default installation command forces to override existing files
   
 - ```php
-  php artisan sk:ui:update ver --force
+  php artisan sk/ui:update ver --force
   ```
   - 'var' argument determine version of components (blade, vue, react). leave blank for blade components
   - '--force' argument overrides existing files if they exists, 
